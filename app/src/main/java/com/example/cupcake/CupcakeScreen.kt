@@ -115,7 +115,7 @@ fun CupcakeApp(
 
         NavHost(
             navController = navController,
-            navDestination = CupcakeScreen.Start.name,
+            startDestination = CupcakeScreen.Start.name,
             modifier = Modifier
                 .fillMaxSize()
                 .verticalScroll(rememberScrollState())
